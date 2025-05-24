@@ -21,6 +21,8 @@ const $ = go.GraphObject.make;
             const { nodeDataArray, linkDataArray } = transform(data); 
             myDiagram.model = new go.GraphLinksModel(nodeDataArray, linkDataArray);
         });
+
+
     function transform(data) {
     const stixObjects = data.objects; 
     const nodes = [];
